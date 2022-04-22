@@ -1,0 +1,20 @@
+pip install virtualenv
+
+python -m virtualenv flask-project
+
+(Change powershell to cmd)
+
+flask-project\Scripts\activate
+
+pip install flask 
+
+pip freeze
+
+(flask-project) C:\Users\Karthik-Sekaran\Desktop\Flask-Projects\In-Memory Books Page>pip freeze
+click==8.1.2
+colorama==0.4.4
+Flask==2.1.1
+itsdangerous==2.1.2
+Jinja2==3.1.1
+MarkupSafe==2.1.1
+Werkzeug==2.1.1
